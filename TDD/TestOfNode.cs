@@ -7,11 +7,9 @@ namespace TDD
     public class TestOfNode
     {
         [TestMethod]
-        public void CreateLinkedList()
+        public void CreateNode()
         {
-            LinkedList list = new LinkedList();
+            Node node = new Node();
         }
-
-
     }
 }

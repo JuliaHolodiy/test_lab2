@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySortInsertLib.Tests", "My
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD", "TDD\TDD.csproj", "{FCF6EF3F-529E-48BF-9607-FABE2D3C27B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListApp", "LinkedListApp\LinkedListApp.csproj", "{D6A4EA50-CCAC-4756-A989-68E5E92B93F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FCF6EF3F-529E-48BF-9607-FABE2D3C27B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCF6EF3F-529E-48BF-9607-FABE2D3C27B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCF6EF3F-529E-48BF-9607-FABE2D3C27B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A4EA50-CCAC-4756-A989-68E5E92B93F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A4EA50-CCAC-4756-A989-68E5E92B93F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A4EA50-CCAC-4756-A989-68E5E92B93F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A4EA50-CCAC-4756-A989-68E5E92B93F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
