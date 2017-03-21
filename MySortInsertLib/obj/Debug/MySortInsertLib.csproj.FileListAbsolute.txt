@@ -1,0 +1,5 @@
+E:\MySortInsertLib\MySortInsertLib\obj\Debug\MySortInsertLib.csprojResolveAssemblyReference.cache
+E:\MySortInsertLib\MySortInsertLib\bin\Debug\MySortInsertLib.dll
+E:\MySortInsertLib\MySortInsertLib\bin\Debug\MySortInsertLib.pdb
+E:\MySortInsertLib\MySortInsertLib\obj\Debug\MySortInsertLib.dll
+E:\MySortInsertLib\MySortInsertLib\obj\Debug\MySortInsertLib.pdb

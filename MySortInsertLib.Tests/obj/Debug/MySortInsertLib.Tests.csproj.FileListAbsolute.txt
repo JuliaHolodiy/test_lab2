@@ -1,0 +1,9 @@
+E:\MySortInsertLib\MySortInsertLib.Tests\obj\Debug\MySortInsertLib.Tests.csprojResolveAssemblyReference.cache
+E:\MySortInsertLib\MySortInsertLib.Tests\bin\Debug\MySortInsertLib.Tests.dll
+E:\MySortInsertLib\MySortInsertLib.Tests\bin\Debug\MySortInsertLib.Tests.pdb
+E:\MySortInsertLib\MySortInsertLib.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\MySortInsertLib\MySortInsertLib.Tests\bin\Debug\MySortInsertLib.dll
+E:\MySortInsertLib\MySortInsertLib.Tests\bin\Debug\MySortInsertLib.pdb
+E:\MySortInsertLib\MySortInsertLib.Tests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\MySortInsertLib\MySortInsertLib.Tests\obj\Debug\MySortInsertLib.Tests.dll
+E:\MySortInsertLib\MySortInsertLib.Tests\obj\Debug\MySortInsertLib.Tests.pdb
