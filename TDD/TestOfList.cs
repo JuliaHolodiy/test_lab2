@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using LinkedListApp;
 
 namespace TDD
 {
@@ -9,9 +10,7 @@ namespace TDD
         [TestMethod]
         public void CreateLinkedList()
         {
-            LinkedList list = new LinkedList();
+            LinkedList<string> linkedList = new LinkedList<string>();
         }
-
-
     }
 }

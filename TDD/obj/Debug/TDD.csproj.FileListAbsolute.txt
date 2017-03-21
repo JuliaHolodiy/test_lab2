@@ -1,1 +1,11 @@
 E:\MySortInsertLib\TDD\obj\Debug\TDD.csprojResolveAssemblyReference.cache
+E:\MySortInsertLib\TDD\bin\Debug\TDD.dll
+E:\MySortInsertLib\TDD\bin\Debug\TDD.pdb
+E:\MySortInsertLib\TDD\bin\Debug\LinkedListApp.exe
+E:\MySortInsertLib\TDD\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\MySortInsertLib\TDD\bin\Debug\MySortInsertLib.dll
+E:\MySortInsertLib\TDD\bin\Debug\LinkedListApp.pdb
+E:\MySortInsertLib\TDD\bin\Debug\MySortInsertLib.pdb
+E:\MySortInsertLib\TDD\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\MySortInsertLib\TDD\obj\Debug\TDD.dll
+E:\MySortInsertLib\TDD\obj\Debug\TDD.pdb

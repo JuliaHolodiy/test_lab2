@@ -50,11 +50,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="TestOfNode.cs" />
     <Compile Include="TestOfList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LinkedListApp\LinkedListApp.csproj">
+      <Project>{d6a4ea50-ccac-4756-a989-68e5e92b93f2}</Project>
+      <Name>LinkedListApp</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MySortInsertLib\MySortInsertLib.csproj">
       <Project>{6b41e390-aa6d-43a8-9f20-f2635de5c67e}</Project>
       <Name>MySortInsertLib</Name>

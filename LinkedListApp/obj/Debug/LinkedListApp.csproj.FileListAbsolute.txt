@@ -1,0 +1,6 @@
+E:\MySortInsertLib\LinkedListApp\bin\Debug\LinkedListApp.exe.config
+E:\MySortInsertLib\LinkedListApp\bin\Debug\LinkedListApp.exe
+E:\MySortInsertLib\LinkedListApp\bin\Debug\LinkedListApp.pdb
+E:\MySortInsertLib\LinkedListApp\obj\Debug\LinkedListApp.csprojResolveAssemblyReference.cache
+E:\MySortInsertLib\LinkedListApp\obj\Debug\LinkedListApp.exe
+E:\MySortInsertLib\LinkedListApp\obj\Debug\LinkedListApp.pdb
