@@ -53,6 +53,12 @@
     <Compile Include="TestOfList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MySortInsertLib\MySortInsertLib.csproj">
+      <Project>{6b41e390-aa6d-43a8-9f20-f2635de5c67e}</Project>
+      <Name>MySortInsertLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
