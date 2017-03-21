@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace TDD
 {
     [TestClass]
-    public class TestOfNode
+    public class TestOfList
     {
         [TestMethod]
         public void CreateLinkedList()

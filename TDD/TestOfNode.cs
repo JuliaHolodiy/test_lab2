@@ -4,12 +4,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace TDD
 {
     [TestClass]
-    public class TestOfNode
+    public class TestOfList
     {
         [TestMethod]
-        public void CreateNode()
+        public void CreateLinkedList()
         {
-            Node node = new Node();
+            LinkedList list = new LinkedList();
         }
+
+
     }
 }
