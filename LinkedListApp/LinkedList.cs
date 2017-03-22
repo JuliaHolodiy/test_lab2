@@ -54,6 +54,7 @@ namespace LinkedListApp
             else return true;
         }
 
+
         public bool Contains(T data)
         {
             Node<T> current = head;
