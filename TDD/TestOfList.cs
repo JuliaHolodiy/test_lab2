@@ -37,6 +37,15 @@ namespace TDD
         }
 
         [TestMethod]
+        public void NotEmpty()
+        {
+            LinkedList<string> list = new LinkedList<string>();
+            list.Add("Vasya");
+            bool result = list.Empty();
+            Assert.AreEqual(false, result);
+        }
+
+        [TestMethod]
         public void Contains()
         {
             LinkedList<string> list = new LinkedList<string>();
@@ -45,6 +54,12 @@ namespace TDD
             Assert.AreEqual(true, result);
         }
 
-        
+        [TestMethod]
+        public void CountOfArrayFromOneEl()
+        {
+            LinkedList<string> list = new LinkedList<string>();
+            list.Add("Vasya");
+            Assert.AreEqual(1, list.Count);
+        }
     }
 }

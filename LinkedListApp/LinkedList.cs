@@ -27,7 +27,7 @@ namespace LinkedListApp
                 current = current.Next;
             }
         }
-
+        public int Count { get { return count; } }
         public IEnumerator<T> GetEnumerator()
         {
             throw new NotImplementedException();
