@@ -24,8 +24,9 @@ namespace TDD
         [TestMethod]
         public void Add()
         {
-            Node<string> node = new Node<string>();
-            //Assert.IsInstanceOfType(linkedList, LinkedList<string>);
+            LinkedList<string> list = new LinkedList<string>();
+            list.Add("Vasya");
+            Assert.AreEqual("Vasya", list.head.Data);
         }
 
     }
