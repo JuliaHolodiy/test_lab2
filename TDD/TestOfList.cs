@@ -69,15 +69,44 @@ namespace TDD
         }
 
         [TestMethod]
-        public void DeleteFromArray()
+        public void DeleteFromArrayOfOne()
         {
             LinkedList<string> list = new LinkedList<string>();
             list.Add("Vasya");
+            bool expected = true;
+            bool res = list.Delete("Vasya"));
+            LinkedList<string> expList = new LinkedList<string>();
+            Assert.AreEqual(expected, res);
+            Assert.AreEqual(expList, list);
+
+
+        }
+
+        [TestMethod]
+        public void DeleteFromArrayOfTwo()
+        {
+            LinkedList<string> list = new LinkedList<string>();
+            list.Add("Petya");
+            list.Add("Vasya");
             LinkedList<string> expected = new LinkedList<string>();
+            expected.Add("Petya");
             list.Delete("Vasya");
             Assert.AreEqual(expected, list);
         }
 
+        [TestMethod]
+        public void DeleteFromArrayOfThree()
+        {
+            LinkedList<string> list = new LinkedList<string>();
+            list.Add("Petya");
+            list.Add("Vasya");
+            list.Add("Kolya");
+            LinkedList<string> expected = new LinkedList<string>();
+            expected.Add("Petya");
+            expected.Add("Kolya");
+            list.Delete("Vasya");
+            Assert.AreEqual(expected, list);
+        }
 
     }
 }
