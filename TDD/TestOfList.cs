@@ -29,6 +29,14 @@ namespace TDD
             Assert.AreEqual("Vasya", list.head.Data);
         }
         [TestMethod]
+        public void Empty()
+        {
+            LinkedList<string> list = new LinkedList<string>();
+            bool result = list.Empty();
+            Assert.AreEqual(true, result);
+        }
+
+        [TestMethod]
         public void Contains()
         {
             LinkedList<string> list = new LinkedList<string>();
@@ -36,5 +44,7 @@ namespace TDD
             bool result=list.Contains("Vasya");
             Assert.AreEqual(true, result);
         }
+
+        
     }
 }

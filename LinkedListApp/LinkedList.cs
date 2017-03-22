@@ -47,6 +47,13 @@ namespace LinkedListApp
             count++;
         }
 
+        public bool Empty()
+        {
+            if (count != 0)
+                return false;
+            else return true;
+        }
+
         public bool Contains(T data)
         {
             Node<T> current = head;
