@@ -61,5 +61,23 @@ namespace TDD
             list.Add("Vasya");
             Assert.AreEqual(1, list.Count);
         }
+        [TestMethod]
+        public void CountOfEmptyArray()
+        {
+            LinkedList<string> list = new LinkedList<string>();
+            Assert.AreEqual(0, list.Count);
+        }
+
+        [TestMethod]
+        public void DeleteFromArray()
+        {
+            LinkedList<string> list = new LinkedList<string>();
+            list.Add("Vasya");
+            LinkedList<string> expected = new LinkedList<string>();
+            list.Delete("Vasya");
+            Assert.AreEqual(expected, list);
+        }
+
+
     }
 }
