@@ -85,8 +85,10 @@ namespace TDD
             list.Add("Vasya");
             list.Add("Petya");
             bool res = list.Delete("Petya");
+            LinkedList<string> expected = new LinkedList<string>();
+            expected.Add("Vasya");
             Assert.AreEqual(true, res);
-            Assert.AreEqual(1, list.Count);
+            Assert.AreEqual(expected.head.Data, list.head.Data);
         }
 
     }
