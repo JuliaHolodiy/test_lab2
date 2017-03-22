@@ -73,13 +73,21 @@ namespace TDD
         {
             LinkedList<string> list = new LinkedList<string>();
             list.Add("Vasya");
-            //bool expected = true;
             bool res = list.Delete("Vasya");
-            LinkedList<string> expList = new LinkedList<string>();
             Assert.AreEqual(true, res);
             Assert.AreEqual(0, list.Count);
         }
 
+        [TestMethod]
+        public void DeleteFromArrayOfTwo()
+        {
+            LinkedList<string> list = new LinkedList<string>();
+            list.Add("Vasya");
+            list.Add("Petya");
+            bool res = list.Delete("Petya");
+            Assert.AreEqual(true, res);
+            Assert.AreEqual(1, list.Count);
+        }
 
     }
 }
