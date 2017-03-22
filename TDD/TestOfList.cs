@@ -91,5 +91,20 @@ namespace TDD
             Assert.AreEqual(expected.head.Data, list.head.Data);
         }
 
+        [TestMethod]
+        public void DeleteFromArrayOfThree()
+        {
+            LinkedList<string> list = new LinkedList<string>();
+            list.Add("Vasya");
+            list.Add("Petya");
+            list.Add("Kolya");
+            bool res = list.Delete("Petya");
+            LinkedList<string> expected = new LinkedList<string>();
+            expected.Add("Vasya");
+            expected.Add("Kolya");
+            Assert.AreEqual(true, res);
+            Assert.AreEqual(expected.head.Data, list.head.Data);
+            Assert.AreEqual(expected.tail.Data, list.tail.Data);
+        }
     }
 }
