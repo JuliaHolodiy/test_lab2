@@ -28,6 +28,13 @@ namespace TDD
             list.Add("Vasya");
             Assert.AreEqual("Vasya", list.head.Data);
         }
-
+        [TestMethod]
+        public void Contains()
+        {
+            LinkedList<string> list = new LinkedList<string>();
+            list.Add("Vasya");
+            bool result=list.Contains("Vasya");
+            Assert.AreEqual(true, result);
+        }
     }
 }

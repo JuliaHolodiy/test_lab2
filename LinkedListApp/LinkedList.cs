@@ -13,6 +13,11 @@ namespace LinkedListApp
         public Node<T> tail; // последний/хвостовой элемент
         public int count;  // количество элементов в списке
 
+        public LinkedList()
+        {
+            count = 0;
+        }
+
         IEnumerator IEnumerable.GetEnumerator()
         {
             Node<T> current = head;
@@ -40,6 +45,18 @@ namespace LinkedListApp
             tail = node;
 
             count++;
+        }
+
+        public bool Contains(T data)
+        {
+            Node<T> current = head;
+            while (current != null)
+            {
+                if (current.Data.Equals(data))
+                    return true;
+                current = current.Next;
+            }
+            return false;
         }
 
     }
